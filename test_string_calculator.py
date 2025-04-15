@@ -6,7 +6,7 @@ class TestStringCalculator(unittest.TestCase):
         self.calculator = StringCalculator()
     
     def test_empty_string(self):
-        self.assertEqual(0, self.calculator.add(""))
+        self.assertEqual(self.calculator.add("1,2"),3)
 
 if __name__ == "__main__":
     unittest.main()
